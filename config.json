@@ -1,0 +1,35 @@
+{
+  "environment" : "development",
+
+  "viewsDirectory" : "views",
+  "stylesDirectory" : "styles",
+  "javascriptDirectory" : "js",
+  "pngSpriteDirectory" : "images/png_sprite",
+  "imagesDirectory" : "images",
+  "fontsDirectory" : "fonts",
+  "svgSpriteDirectory" : "images/svg_sprite",
+  "svgInlineSpriteDirectory" : "images/svg_sprite_inline",
+  "svgInlineSpriteGenerated" : "views/svg",
+  "criticalDirectory" : "critical",
+
+  "sourcePath" : "src/app",
+  "destinationPath" : "src/public",
+  "temporaryPath" : "src/.tmp",
+
+  "template_engine" : "twig",
+
+  "javascript_libraries" : [
+    "./node_modules/jquery/dist/jquery.min.js",
+    "./node_modules/jquery-validation/dist/jquery.validate.js",
+    "./node_modules/jquery-validation/dist/additional-methods.js",
+    "./node_modules/slick-carousel/slick/slick.js",
+    "./node_modules/wow.js/dist/wow.js"
+  ],
+
+  "use_babel" : true,
+  "minify_images" : true,
+  "css_source_maps" : false,
+  "js_source_maps" : true,
+  "concatenate_scripts" : false,
+  "critical_css" : false
+}
