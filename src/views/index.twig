@@ -11,135 +11,16 @@
 <body>
 
 
-{% include 'components/c-header.twig' with {'active_item': 'Main'} %}
-
 <div class="page">
 
-
-    {% set vars = {
-        'title': 'Custom Software Development Company',
-        'copy': '<p>EffectiveSoft provides full cycle application development and custom software development services. Our qualified engineers deliver cost-competitive, robust and scalable software solutions for a wide range of industries.</p>',
-        'media': {
-            'images': [
-                'images/banner-1.png',
-                'images/news.jpg',
-                'images/big-image-1.jpg'
-            ]
-        },
-        'links': [
-            {'name': 'Send request', 'url': '/contacts.html', 'customClass': 'btn-bright', }
-        ]
-    }  %}
-    {% include 'blocks/superhero.twig' with vars  %}
-
-
-    {% set cards_vars = {
-        'block_color': 'white',
-        'custom_class': '',
-        'label': 'Industries',
-        'title': 'We are experts in',
-        'description': '<p>Our flawless track record encompasses two decades and hundreds of completed projects, so we have developed considerable expertise in the following industries:</p>',
-        'inRow': 3,
-        'links': [
-            {
-                'url': 'contact.html',
-                'name': 'Send request',
-                'customClass': ''
-            }
-        ],
-        'list': [
-            {
-                'title': 'Healthcare',
-                'description': '<p>Our cooperation with medical institutions has resulted in improved patient outcomes as well as increased income and streamlined workflow.</p>',
-                'link': '#'
-
-            },
-            {
-                'title': 'Trading',
-                'description': '<p>With 20 years of relevant experience under the belt, we guarantee that our customers get trading software that makes profit.</p>'
-
-            },
-            {
-                'title': 'Finance',
-                'description': '<p>We pool efforts with financial companies to develop highly competitive software that fosters business expansion.</p>',
-                'link': '#'
-
-            }
-        ]
-
-    } %}
-    {% include 'blocks/content-cards.twig' with cards_vars  %}
-
-
-    {% set progress_vars = {
-        'block_color': 'dark',
-        'label': 'ABOUT US',
-        'title': 'Who we are',
-        'image': 'images/news.jpg',
-        'values': [
-            {
-                'value': '20',
-                'label': 'Years of experience in the IT field'
-            },
-            {
-                'value': '500',
-                'plus': true,
-                'label': 'Clients across the globe'
-            },
-            {
-                'value': '250',
-                'plus': true,
-                'label': 'In-house experts'
-            },
-            {
-                'value': '840',
-                'plus': true,
-                'label': 'Projects in different business domains'
-            }
-        ]
-
-    } %}
-
-    {% include 'blocks/content-progress.twig' with progress_vars %}
-
-    {% include 'blocks/testimonials.twig' %}
-
-    {% set portfolio_vars = {
-        'block_color': 'gray',
-        'label': 'portfolio',
-        'title': 'Featured projects',
-    } %}
-    {% include 'blocks/portfolio.twig' with portfolio_vars  %}
-
-
-
-    {% set vars = {
-        'block_color': 'white',
-        'label': 'awards',
-        'title': 'Our recognitions and awards tell about us',
-        'description': '<p>EffectiveSoft is a software development company headquartered in San Diego, USA, with the development center in Minsk, Belarus. Since the company’s foundation in 2000, we have successfully completed more than 800 projects for start-ups, mid- and large-scale companies across different industries. We are recognized in the global IT community by Microsoft Gold Application Development status and ISO 9001 certificate. </p>',
-        'image': 'images/office.jpg'
-    } %}
-    {% include 'blocks/awards.twig' with vars  %}
-
-
-    {% set news_vars = {
-        'block_color': 'gray',
-        'label': 'blog',
-        'title': 'Latest news',
-    } %}
-    {% include 'blocks/news.twig' with news_vars  %}
-
-    {% include 'blocks/request.twig' %}
+    Hi sweetie!
 
 </div>
 
 
-{% include 'components/c-footer.twig' %}
-
 {% block scripts %}
-    <script src="./js/libraries.js"></script>
-    <script src="./js/app.js"></script>
+    {#<script src="./js/libraries.js"></script>#}
+    {#<script src="./js/app.js"></script>#}
 {% endblock %}
 
 {% include 'components/svg-sprite.twig' %}

@@ -12,18 +12,14 @@
   "svgInlineSpriteGenerated" : "views/svg",
   "criticalDirectory" : "critical",
 
-  "sourcePath" : "src/app",
-  "destinationPath" : "src/public",
-  "temporaryPath" : "src/.tmp",
+  "sourcePath" : "src",
+  "destinationPath" : "public",
+  "temporaryPath" : ".tmp",
 
   "template_engine" : "twig",
 
   "javascript_libraries" : [
-    "./node_modules/jquery/dist/jquery.min.js",
-    "./node_modules/jquery-validation/dist/jquery.validate.js",
-    "./node_modules/jquery-validation/dist/additional-methods.js",
-    "./node_modules/slick-carousel/slick/slick.js",
-    "./node_modules/wow.js/dist/wow.js"
+    "./node_modules/jquery/dist/jquery.min.js"
   ],
 
   "use_babel" : true,
